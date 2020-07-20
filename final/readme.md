@@ -20,7 +20,10 @@ steps to Run Traffic Dataset Collector
               on Node: h4 run "./script4.sh"
 7. After Process is completed files as name "h1file.txt" and "h2file.txt" are generated for each h1,h2,h3,h4 containing data about traffic at each node.
 
+
 We can change status the links of Network topology by "link h1 s2 down" or "link h2 s2 up" in order to provide variance to the data collected.
+
+Files "FlowStatsFile.txt" and "PortStatsFile.txt" contains the information about data flowing through different Ports of all the switches.
 
 We can scale this thing at a very large scale and can collect data of a very complex Network topology.
 The Large data collected can be very useful to increase efficiency of network by creatin a Machine Learning Model and training through that large data.
